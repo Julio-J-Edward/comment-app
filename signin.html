@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #top{
+            text-align: center;
+        }
+        body{
+            background-color: crimson;
+        }
+        #but{
+            width: 190px;
+            background-color: darkgoldenrod;
+            padding: 8px;
+        }
+        #pin{
+            padding: 10px;
+            border-color: black;
+        }
+        #pin:hover{
+             background-color: lightcoral;
+             border-color: black;
+        }
+        #overall{
+            margin-top: 8pc;
+        }
+    </style>
+</head>
+<body>
+    <div id="overall">
+    <div id="top">
+    <h2>Sign Up</h2>
+    <p>Already have an account?<a href="login.html" target="top">Sign In</a></p>
+    </div>
+    <div align="center">
+    <form method="post" action="login.html">
+        <table id="center">
+        <tr>
+            
+            <td><label for="usermail" id="lab">Email</label><br><input type="email" id="pin" placeholder="user email"></td>
+        </tr>
+        <tr>
+            <td><label for="userpass" id="lab">Password</label><br>
+            <input type="password" id="pin" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td><label for="secret" id="lab">Secret</label><br>
+            <input type="text" id="pin" placeholder="secretcode"></td>
+        </tr>
+        <tr><td><input type="submit" id="but" value="Sign Up"></td></tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
