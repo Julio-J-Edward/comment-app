@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        #but{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            width: 190px;
+            padding: 8px;
+            
+        }
+        body{
+            background-color: black;
+        }
+        h2{
+            color: white;
+        }
+        #pin{
+            padding: 10px;
+            border-color: white;
+        }
+        #pin:hover{
+            background-color: palevioletred;
+            border-color: red;
+        }
+        #lab{
+            color: white;
+        }
+        #top{
+            color: white;
+            text-align: center;
+        }
+        #a{
+            margin-left: 40pc;
+        }
+        #all{
+            margin-top: 10pc;
+        }
+        #lin{
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="all">
+    <h2 align="center">LOGIN</h2>
+    <p id="top">Don't have a account?<a href="signin.html" target="_self">Sign Up</a></p>
+    <form method="post" action="commentpage.html">
+    <table align="center">
+    <tr>
+        
+        <td><label for="usermail" id="lab">Email</label><br><input type="email" id="pin" placeholder="user email"></td>
+    </tr>
+    <tr>
+        <td><label for="userpass" id="lab">Password</label><br>
+        <input type="password" id="pin" placeholder="Password"></td>
+    </tr>
+    <tr><td><a href="forgetpage.html">Forget your password</a></td></tr>
+    <tr><td><input type="submit" id="but" value="Sign In"></td></tr>
+    </table>
+</div>
+</body>
+</html>
